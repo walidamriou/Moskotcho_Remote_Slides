@@ -24,7 +24,7 @@ for Next button "button=next" and for back button send "button=back".
 https://moskotchosr.walidamriou.com
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/walidamriou/LokumGoLang/blob/master/img/anim.png">
+  <img width="50%" height="50%" src="https://github.com/walidamriou/Moskotcho_Slides_Remote/blob/master/img/anim.png">
 </p>
 
 ### If you need any help or informations:
