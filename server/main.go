@@ -76,7 +76,6 @@ func send(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if s == "button=next" {
-		//robotgo.KeyTap("shift", "alt")
 		robotgo.KeyTap("right")
 	} else if s == "button=back" {
 		robotgo.KeyTap("left")

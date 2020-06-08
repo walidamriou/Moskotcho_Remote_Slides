@@ -67,6 +67,24 @@
       font-weight: 700
     }
   </style>
+
+  <script>
+    function Next(){
+    let xhr = new XMLHttpRequest();
+    let url="/";
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    xhr.send("button=next");
+  }
+
+  function Back(){
+    let xhr = new XMLHttpRequest();
+    let url="/";
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    xhr.send("button=back");
+  }
+  </script>
 </head>
 
 <body>
@@ -81,7 +99,7 @@
     <button id="password_generate_button"
     class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
     style="border-radius:30px;background-color:#00758D"
-    onclick=" window.open('/','_blank')"
+    onclick=Next()
     >
     Back
   </button>
