@@ -6,6 +6,10 @@ Remote control slides presentations From Web browsers &amp; any device support W
 https://lokumgolang.walidamriou.com/Install_Go_language.html    
 2- Clone the project  
 git clone https://github.com/walidamriou/Moskotcho_Slides_Remote  
+3- Install packages:
+go get github.com/bmizerany/pa
+then
+go get github.com/go-vgo/robotgo
 4- open the terminal in Server folder and write:   
 go run main.go    
 5- Open your slide in presentation mode (I tesed it with PDf file and ubuntu 20.04 Document Viewer)  
