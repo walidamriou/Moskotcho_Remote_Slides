@@ -5,6 +5,8 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+
+	"github.com/go-vgo/robotgo"
 )
 
 func http_Server(w http.ResponseWriter, r *http.Request) {
@@ -35,6 +37,13 @@ func http_Server(w http.ResponseWriter, r *http.Request) {
 		//Test conditions with the data received
 		if s == "data=data1" {
 			fmt.Printf("The data is data1\n")
+		}
+
+		if s == "button=next" {
+			//robotgo.KeyTap("shift", "alt")
+			robotgo.KeyTap("right")
+		} else if s == "button=back" {
+			robotgo.KeyTap("left")
 		}
 		w.Write([]byte("Received a POST request\n"))
 
