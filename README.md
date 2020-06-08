@@ -16,6 +16,8 @@ go run main.go
 </p>
 7- Test click next/back buttons   
 
+:warning: If there are any issues in the scripts of the examples write an issue in: [issues](https://github.com/walidamriou/LokumGoLang/issues "issues")   
+
 ### You want to integrete this project with other project ?
 If you want to integerete this server in other projects like android application or IoT device based Raspberry pi or ESP32 ...
 you just make a http post request with the URL: http://ip_of_you_local_machine:8000 and in body send: 
