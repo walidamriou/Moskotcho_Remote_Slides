@@ -70,11 +70,6 @@ func send(w http.ResponseWriter, r *http.Request) {
 	//convert reqBody from byte[] to string
 	s := string(reqBody[:])
 
-	//Test conditions with the data received
-	if s == "data=data1" {
-		fmt.Printf("The data is data1\n")
-	}
-
 	if s == "button=next" {
 		robotgo.KeyTap("right")
 	} else if s == "button=back" {
