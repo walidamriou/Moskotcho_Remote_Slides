@@ -4,16 +4,96 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>Golang</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="/Templates/css/styles.css?v=1.0">
 
+  <link rel="stylesheet" href="/Templates/css/style.css">
+  <link rel="stylesheet" href="/Templates/css/style_buttons.css">
+  <link rel="icon" href="/img/go.ico" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="/Templates/material_design/material.min.css">
+  <script src="/Templates/material_design/material.min.js"></script>
+
+  <style>
+    body,h1,h2,h3,h4,h5,h6,p,a {
+      font-family: monospace, sans-serif
+    }
+
+    body,
+    html {
+      color: #212121;
+      background-color: #FAFAFA
+    }
+    @media (min-width:600px){
+      .mdl-list {
+        padding-left: 30%;
+      }
+    }
+
+    @media (max-width:700px){
+      .mdl-list {
+        padding-left: 10%;
+      }
+    }
+
+    .bgimg {
+      background-image: url('img/matrix.svg');
+      min-height: 100%;
+      background-repeat: repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    mark {
+      background-color: #94ebee;
+      color: black;
+    }
+
+    #your_new_password_text {
+      color: red;
+    }
+    .mdl-ceckbox{
+      width: 10%;
+    }
+    .mdl-list__item{
+      min-height:65px;
+    }
+    .mdl-button{
+      height: 200px;
+      min-width: 300px;
+      font-size: 50px;
+      font-weight: 700
+    }
+  </style>
 </head>
 
 <body>
-    <h1>bingo</h1>
-  <script src="js/scripts.js"></script>
+  <center>
+    <br>
+    <br>
+    <h1>Moskotcho Slides Remote</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button id="password_generate_button"
+    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+    style="border-radius:30px;background-color:#00758D"
+    onclick=" window.open('/','_blank')"
+    >
+    Back
+  </button>
+
+  <button id="password_generate_button"
+  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+  style="border-radius:30px;background-color:#00758D"
+  onclick=" window.open('/','_blank')"
+  >
+  Next
+</button>
+</center>
+
 </body>
 </html>
