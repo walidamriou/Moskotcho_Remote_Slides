@@ -29,9 +29,10 @@ func http_Server(w http.ResponseWriter, r *http.Request) {
 		}
 
 		fmt.Printf("%s\n", reqBody)
+		//convert reqBody from byte[] to string
 		s := string(reqBody[:])
 
-		//data_receive := string([]byte{reqBody})
+		//Test conditions with the data received
 		if s == "data=data1" {
 			fmt.Printf("The data is data1\n")
 		}
