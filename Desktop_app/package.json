@@ -1,0 +1,19 @@
+{
+  "name": "moskotcho-remote-slides",
+  "version": "1.0.0",
+  "description": "Remote control slides presentations From Web browsers & any device support WiFi",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walidamriou/Moskotcho_Remote_Slides.git"
+  },
+  "author": "Walid Amriou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walidamriou/Moskotcho_Remote_Slides/issues"
+  },
+  "homepage": "https://github.com/walidamriou/Moskotcho_Remote_Slides#readme"
+}
