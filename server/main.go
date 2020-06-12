@@ -20,6 +20,8 @@ import (
 )
 
 func main() {
+	//mdns.Publish("remote.local 60 IN A 192.168.1.1")
+
 	//To read css and js files from server
 	fs := http.FileServer(http.Dir("Templates"))
 	http.Handle("/Templates/", http.StripPrefix("/Templates/", fs))
