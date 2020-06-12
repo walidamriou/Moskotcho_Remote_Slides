@@ -36,7 +36,7 @@ you just make a http post request with the URL: http://ip_of_you_local_machine:8
 for Next button "button=next" and for back button send "button=back".
 
 ### Website of the project:  
-https://moskotchosr.walidamriou.com
+https://moskotchosr.walidamriou.com/
 
 <p align="center">
   <img width="50%" height="50%" src="https://github.com/walidamriou/Moskotcho_Slides_Remote/blob/master/img/anim.png">
